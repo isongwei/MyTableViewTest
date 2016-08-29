@@ -415,10 +415,6 @@
 				2695BF051CABADA50013E058 /* ViewController.m */,
 				26A1C2501CB364380068C1D5 /* swTableViewCell.h */,
 				26A1C2511CB364380068C1D5 /* swTableViewCell.m */,
-				2695BF071CABADA50013E058 /* Main.storyboard */,
-				2695BF0A1CABADA50013E058 /* Assets.xcassets */,
-				2695BF0C1CABADA50013E058 /* LaunchScreen.storyboard */,
-				2695BF0F1CABADA50013E058 /* Info.plist */,
 				2695BEFE1CABADA50013E058 /* Supporting Files */,
 			);
 			path = TableViewTest;
@@ -427,6 +423,10 @@
 		2695BEFE1CABADA50013E058 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2695BF071CABADA50013E058 /* Main.storyboard */,
+				2695BF0A1CABADA50013E058 /* Assets.xcassets */,
+				2695BF0C1CABADA50013E058 /* LaunchScreen.storyboard */,
+				2695BF0F1CABADA50013E058 /* Info.plist */,
 				2695BEFF1CABADA50013E058 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -708,6 +708,7 @@
 				TargetAttributes = {
 					2695BEFA1CABADA50013E058 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = MHN2XFC72U;
 					};
 					2695BF131CABADA50013E058 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -1067,10 +1068,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TableViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sven.TableViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1078,10 +1082,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TableViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sven.TableViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

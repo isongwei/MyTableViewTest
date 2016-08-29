@@ -139,7 +139,7 @@
     return @[deleteAction,unreadAction];
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-    return 50;
+    return 0.0000001;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 50;
@@ -162,6 +162,8 @@
     //获取分组下标
     NSInteger section = tap.view.tag - 1000;
     BOOL isshow = [_isshow[section] boolValue];
+    
+    
     if (isshow == YES) {
         //改变为收起状态
         [_isshow replaceObjectAtIndex:section withObject:@NO];
@@ -169,6 +171,9 @@
         //收起改为展开
         [_isshow replaceObjectAtIndex:section withObject:@YES];
     }
+    
+    
+    
     [_tableView reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:(UITableViewRowAnimationFade)];
     
 }
