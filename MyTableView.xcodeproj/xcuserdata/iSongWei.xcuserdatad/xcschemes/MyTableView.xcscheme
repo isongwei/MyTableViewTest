@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2695BEFA1CABADA50013E058"
-               BuildableName = "TableViewTest.app"
-               BlueprintName = "TableViewTest"
-               ReferencedContainer = "container:TableViewTest.xcodeproj">
+               BlueprintIdentifier = "F908CE341EAF2C5A00AA07A7"
+               BuildableName = "MyTableView.app"
+               BlueprintName = "MyTableView"
+               ReferencedContainer = "container:MyTableView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2695BF131CABADA50013E058"
-               BuildableName = "TableViewTestTests.xctest"
-               BlueprintName = "TableViewTestTests"
-               ReferencedContainer = "container:TableViewTest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2695BF1E1CABADA50013E058"
-               BuildableName = "TableViewTestUITests.xctest"
-               BlueprintName = "TableViewTestUITests"
-               ReferencedContainer = "container:TableViewTest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2695BEFA1CABADA50013E058"
-            BuildableName = "TableViewTest.app"
-            BlueprintName = "TableViewTest"
-            ReferencedContainer = "container:TableViewTest.xcodeproj">
+            BlueprintIdentifier = "F908CE341EAF2C5A00AA07A7"
+            BuildableName = "MyTableView.app"
+            BlueprintName = "MyTableView"
+            ReferencedContainer = "container:MyTableView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2695BEFA1CABADA50013E058"
-            BuildableName = "TableViewTest.app"
-            BlueprintName = "TableViewTest"
-            ReferencedContainer = "container:TableViewTest.xcodeproj">
+            BlueprintIdentifier = "F908CE341EAF2C5A00AA07A7"
+            BuildableName = "MyTableView.app"
+            BlueprintName = "MyTableView"
+            ReferencedContainer = "container:MyTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2695BEFA1CABADA50013E058"
-            BuildableName = "TableViewTest.app"
-            BlueprintName = "TableViewTest"
-            ReferencedContainer = "container:TableViewTest.xcodeproj">
+            BlueprintIdentifier = "F908CE341EAF2C5A00AA07A7"
+            BuildableName = "MyTableView.app"
+            BlueprintName = "MyTableView"
+            ReferencedContainer = "container:MyTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

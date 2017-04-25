@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TableViewTest.xcscheme</key>
+		<key>MyTableView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2695BEFA1CABADA50013E058</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2695BF131CABADA50013E058</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2695BF1E1CABADA50013E058</key>
+		<key>F908CE341EAF2C5A00AA07A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

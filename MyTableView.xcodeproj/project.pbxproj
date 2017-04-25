@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F908CE3A1EAF2C5A00AA07A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F908CE391EAF2C5A00AA07A7 /* main.m */; };
+		F908CE3D1EAF2C5A00AA07A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F908CE3C1EAF2C5A00AA07A7 /* AppDelegate.m */; };
+		F908CE401EAF2C5A00AA07A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F908CE3F1EAF2C5A00AA07A7 /* ViewController.m */; };
+		F908CE431EAF2C5A00AA07A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F908CE411EAF2C5A00AA07A7 /* Main.storyboard */; };
+		F908CE451EAF2C5A00AA07A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F908CE441EAF2C5A00AA07A7 /* Assets.xcassets */; };
+		F908CE481EAF2C5A00AA07A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F908CE461EAF2C5A00AA07A7 /* LaunchScreen.storyboard */; };
+		F908CEEC1EAF2FEA00AA07A7 /* image_圣斗士.plist in Resources */ = {isa = PBXBuildFile; fileRef = F908CE501EAF2FEA00AA07A7 /* image_圣斗士.plist */; };
+		F908CEED1EAF2FEA00AA07A7 /* image_海贼.plist in Resources */ = {isa = PBXBuildFile; fileRef = F908CE511EAF2FEA00AA07A7 /* image_海贼.plist */; };
+		F908CEEE1EAF2FEA00AA07A7 /* image_火影忍者.plist in Resources */ = {isa = PBXBuildFile; fileRef = F908CE521EAF2FEA00AA07A7 /* image_火影忍者.plist */; };
+		F908CEEF1EAF2FEA00AA07A7 /* image_美女.plist in Resources */ = {isa = PBXBuildFile; fileRef = F908CE531EAF2FEA00AA07A7 /* image_美女.plist */; };
+		F908CEF01EAF2FEA00AA07A7 /* 圣斗士01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE551EAF2FEA00AA07A7 /* 圣斗士01.jpg */; };
+		F908CEF11EAF2FEA00AA07A7 /* 圣斗士02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE561EAF2FEA00AA07A7 /* 圣斗士02.jpg */; };
+		F908CEF21EAF2FEA00AA07A7 /* 圣斗士03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE571EAF2FEA00AA07A7 /* 圣斗士03.jpg */; };
+		F908CEF31EAF2FEA00AA07A7 /* 圣斗士04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE581EAF2FEA00AA07A7 /* 圣斗士04.jpg */; };
+		F908CEF41EAF2FEA00AA07A7 /* 圣斗士05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE591EAF2FEA00AA07A7 /* 圣斗士05.jpg */; };
+		F908CEF51EAF2FEA00AA07A7 /* 圣斗士06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE5A1EAF2FEA00AA07A7 /* 圣斗士06.jpg */; };
+		F908CEF61EAF2FEA00AA07A7 /* 圣斗士07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE5B1EAF2FEA00AA07A7 /* 圣斗士07.jpg */; };
+		F908CEF71EAF2FEA00AA07A7 /* 圣斗士08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE5C1EAF2FEA00AA07A7 /* 圣斗士08.jpg */; };
+		F908CEF81EAF2FEA00AA07A7 /* 圣斗士09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE5D1EAF2FEA00AA07A7 /* 圣斗士09.jpg */; };
+		F908CEF91EAF2FEA00AA07A7 /* 圣斗士10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE5E1EAF2FEA00AA07A7 /* 圣斗士10.jpg */; };
+		F908CEFA1EAF2FEA00AA07A7 /* 圣斗士11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE5F1EAF2FEA00AA07A7 /* 圣斗士11.jpg */; };
+		F908CEFB1EAF2FEA00AA07A7 /* 圣斗士12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE601EAF2FEA00AA07A7 /* 圣斗士12.jpg */; };
+		F908CEFC1EAF2FEA00AA07A7 /* 圣斗士13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE611EAF2FEA00AA07A7 /* 圣斗士13.jpg */; };
+		F908CEFD1EAF2FEA00AA07A7 /* 圣斗士14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE621EAF2FEA00AA07A7 /* 圣斗士14.jpg */; };
+		F908CEFE1EAF2FEA00AA07A7 /* 圣斗士15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE631EAF2FEA00AA07A7 /* 圣斗士15.jpg */; };
+		F908CEFF1EAF2FEA00AA07A7 /* 海贼01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE651EAF2FEA00AA07A7 /* 海贼01.jpg */; };
+		F908CF001EAF2FEA00AA07A7 /* 海贼02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE661EAF2FEA00AA07A7 /* 海贼02.jpg */; };
+		F908CF011EAF2FEA00AA07A7 /* 海贼03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE671EAF2FEA00AA07A7 /* 海贼03.jpg */; };
+		F908CF021EAF2FEA00AA07A7 /* 海贼04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE681EAF2FEA00AA07A7 /* 海贼04.jpg */; };
+		F908CF031EAF2FEA00AA07A7 /* 海贼05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE691EAF2FEA00AA07A7 /* 海贼05.jpg */; };
+		F908CF041EAF2FEA00AA07A7 /* 海贼06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE6A1EAF2FEA00AA07A7 /* 海贼06.jpg */; };
+		F908CF051EAF2FEA00AA07A7 /* 海贼07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE6B1EAF2FEA00AA07A7 /* 海贼07.jpg */; };
+		F908CF061EAF2FEA00AA07A7 /* 海贼08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE6C1EAF2FEA00AA07A7 /* 海贼08.jpg */; };
+		F908CF071EAF2FEA00AA07A7 /* 海贼09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE6D1EAF2FEA00AA07A7 /* 海贼09.jpg */; };
+		F908CF081EAF2FEA00AA07A7 /* 海贼10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE6E1EAF2FEA00AA07A7 /* 海贼10.jpg */; };
+		F908CF091EAF2FEA00AA07A7 /* 海贼11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE6F1EAF2FEA00AA07A7 /* 海贼11.jpg */; };
+		F908CF0A1EAF2FEA00AA07A7 /* 海贼12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE701EAF2FEA00AA07A7 /* 海贼12.jpg */; };
+		F908CF0B1EAF2FEA00AA07A7 /* 海贼13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE711EAF2FEA00AA07A7 /* 海贼13.jpg */; };
+		F908CF0C1EAF2FEA00AA07A7 /* 海贼14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE721EAF2FEA00AA07A7 /* 海贼14.jpg */; };
+		F908CF0D1EAF2FEA00AA07A7 /* 海贼15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE731EAF2FEA00AA07A7 /* 海贼15.jpg */; };
+		F908CF0E1EAF2FEA00AA07A7 /* 海贼16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE741EAF2FEA00AA07A7 /* 海贼16.jpg */; };
+		F908CF0F1EAF2FEA00AA07A7 /* 海贼17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE751EAF2FEA00AA07A7 /* 海贼17.jpg */; };
+		F908CF101EAF2FEA00AA07A7 /* 海贼18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE761EAF2FEA00AA07A7 /* 海贼18.jpg */; };
+		F908CF111EAF2FEA00AA07A7 /* 海贼19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE771EAF2FEA00AA07A7 /* 海贼19.jpg */; };
+		F908CF121EAF2FEA00AA07A7 /* 海贼20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE781EAF2FEA00AA07A7 /* 海贼20.jpg */; };
+		F908CF131EAF2FEA00AA07A7 /* 海贼21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE791EAF2FEA00AA07A7 /* 海贼21.jpg */; };
+		F908CF141EAF2FEA00AA07A7 /* 海贼22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE7A1EAF2FEA00AA07A7 /* 海贼22.jpg */; };
+		F908CF151EAF2FEA00AA07A7 /* 海贼23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE7B1EAF2FEA00AA07A7 /* 海贼23.jpg */; };
+		F908CF161EAF2FEA00AA07A7 /* 海贼24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE7C1EAF2FEA00AA07A7 /* 海贼24.jpg */; };
+		F908CF171EAF2FEA00AA07A7 /* 海贼25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE7D1EAF2FEA00AA07A7 /* 海贼25.jpg */; };
+		F908CF181EAF2FEA00AA07A7 /* 海贼26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE7E1EAF2FEA00AA07A7 /* 海贼26.jpg */; };
+		F908CF191EAF2FEA00AA07A7 /* 海贼27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE7F1EAF2FEA00AA07A7 /* 海贼27.jpg */; };
+		F908CF1A1EAF2FEA00AA07A7 /* 海贼28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE801EAF2FEA00AA07A7 /* 海贼28.jpg */; };
+		F908CF1B1EAF2FEA00AA07A7 /* 海贼29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE811EAF2FEA00AA07A7 /* 海贼29.jpg */; };
+		F908CF1C1EAF2FEA00AA07A7 /* 海贼30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE821EAF2FEA00AA07A7 /* 海贼30.jpg */; };
+		F908CF1D1EAF2FEA00AA07A7 /* 海贼31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE831EAF2FEA00AA07A7 /* 海贼31.jpg */; };
+		F908CF1E1EAF2FEA00AA07A7 /* 海贼32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE841EAF2FEA00AA07A7 /* 海贼32.jpg */; };
+		F908CF1F1EAF2FEA00AA07A7 /* 海贼33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE851EAF2FEA00AA07A7 /* 海贼33.jpg */; };
+		F908CF201EAF2FEA00AA07A7 /* 海贼34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE861EAF2FEA00AA07A7 /* 海贼34.jpg */; };
+		F908CF211EAF2FEA00AA07A7 /* 海贼35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE871EAF2FEA00AA07A7 /* 海贼35.jpg */; };
+		F908CF221EAF2FEA00AA07A7 /* 海贼36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE881EAF2FEA00AA07A7 /* 海贼36.jpg */; };
+		F908CF231EAF2FEA00AA07A7 /* 海贼37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE891EAF2FEA00AA07A7 /* 海贼37.jpg */; };
+		F908CF241EAF2FEA00AA07A7 /* 海贼38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE8A1EAF2FEA00AA07A7 /* 海贼38.jpg */; };
+		F908CF251EAF2FEA00AA07A7 /* 海贼39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE8B1EAF2FEA00AA07A7 /* 海贼39.jpg */; };
+		F908CF261EAF2FEA00AA07A7 /* 海贼40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE8C1EAF2FEA00AA07A7 /* 海贼40.jpg */; };
+		F908CF271EAF2FEA00AA07A7 /* 海贼41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE8D1EAF2FEA00AA07A7 /* 海贼41.jpg */; };
+		F908CF281EAF2FEA00AA07A7 /* 海贼42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE8E1EAF2FEA00AA07A7 /* 海贼42.jpg */; };
+		F908CF291EAF2FEA00AA07A7 /* 海贼43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE8F1EAF2FEA00AA07A7 /* 海贼43.jpg */; };
+		F908CF2A1EAF2FEA00AA07A7 /* 海贼44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE901EAF2FEA00AA07A7 /* 海贼44.jpg */; };
+		F908CF2B1EAF2FEA00AA07A7 /* 海贼45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE911EAF2FEA00AA07A7 /* 海贼45.jpg */; };
+		F908CF2C1EAF2FEA00AA07A7 /* 海贼46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE921EAF2FEA00AA07A7 /* 海贼46.jpg */; };
+		F908CF2D1EAF2FEA00AA07A7 /* 海贼47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE931EAF2FEA00AA07A7 /* 海贼47.jpg */; };
+		F908CF2E1EAF2FEA00AA07A7 /* 海贼48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE941EAF2FEA00AA07A7 /* 海贼48.jpg */; };
+		F908CF2F1EAF2FEA00AA07A7 /* 海贼49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE951EAF2FEA00AA07A7 /* 海贼49.jpg */; };
+		F908CF301EAF2FEA00AA07A7 /* 海贼50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE961EAF2FEA00AA07A7 /* 海贼50.jpg */; };
+		F908CF311EAF2FEA00AA07A7 /* 海贼51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE971EAF2FEA00AA07A7 /* 海贼51.jpg */; };
+		F908CF321EAF2FEA00AA07A7 /* 海贼52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE981EAF2FEA00AA07A7 /* 海贼52.jpg */; };
+		F908CF331EAF2FEA00AA07A7 /* 海贼53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE991EAF2FEA00AA07A7 /* 海贼53.jpg */; };
+		F908CF341EAF2FEA00AA07A7 /* 海贼54.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CE9A1EAF2FEA00AA07A7 /* 海贼54.jpg */; };
+		F908CF351EAF2FEA00AA07A7 /* 火影01.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CE9C1EAF2FEA00AA07A7 /* 火影01.png */; };
+		F908CF361EAF2FEA00AA07A7 /* 火影02.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CE9D1EAF2FEA00AA07A7 /* 火影02.png */; };
+		F908CF371EAF2FEA00AA07A7 /* 火影03.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CE9E1EAF2FEA00AA07A7 /* 火影03.png */; };
+		F908CF381EAF2FEA00AA07A7 /* 火影04.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CE9F1EAF2FEA00AA07A7 /* 火影04.png */; };
+		F908CF391EAF2FEA00AA07A7 /* 火影05.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA01EAF2FEA00AA07A7 /* 火影05.png */; };
+		F908CF3A1EAF2FEA00AA07A7 /* 火影06.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA11EAF2FEA00AA07A7 /* 火影06.png */; };
+		F908CF3B1EAF2FEA00AA07A7 /* 火影07.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA21EAF2FEA00AA07A7 /* 火影07.png */; };
+		F908CF3C1EAF2FEA00AA07A7 /* 火影08.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA31EAF2FEA00AA07A7 /* 火影08.png */; };
+		F908CF3D1EAF2FEA00AA07A7 /* 火影09.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA41EAF2FEA00AA07A7 /* 火影09.png */; };
+		F908CF3E1EAF2FEA00AA07A7 /* 火影10.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA51EAF2FEA00AA07A7 /* 火影10.png */; };
+		F908CF3F1EAF2FEA00AA07A7 /* 火影11.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA61EAF2FEA00AA07A7 /* 火影11.png */; };
+		F908CF401EAF2FEA00AA07A7 /* 火影12.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA71EAF2FEA00AA07A7 /* 火影12.png */; };
+		F908CF411EAF2FEA00AA07A7 /* 火影13.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA81EAF2FEA00AA07A7 /* 火影13.png */; };
+		F908CF421EAF2FEA00AA07A7 /* 火影14.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEA91EAF2FEA00AA07A7 /* 火影14.png */; };
+		F908CF431EAF2FEA00AA07A7 /* 火影15.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEAA1EAF2FEA00AA07A7 /* 火影15.png */; };
+		F908CF441EAF2FEA00AA07A7 /* 火影16.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEAB1EAF2FEA00AA07A7 /* 火影16.png */; };
+		F908CF451EAF2FEA00AA07A7 /* 火影17.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEAC1EAF2FEA00AA07A7 /* 火影17.png */; };
+		F908CF461EAF2FEA00AA07A7 /* 火影18.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEAD1EAF2FEA00AA07A7 /* 火影18.png */; };
+		F908CF471EAF2FEA00AA07A7 /* 火影19.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEAE1EAF2FEA00AA07A7 /* 火影19.png */; };
+		F908CF481EAF2FEA00AA07A7 /* 火影20.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEAF1EAF2FEA00AA07A7 /* 火影20.png */; };
+		F908CF491EAF2FEA00AA07A7 /* 火影21.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB01EAF2FEA00AA07A7 /* 火影21.png */; };
+		F908CF4A1EAF2FEA00AA07A7 /* 火影22.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB11EAF2FEA00AA07A7 /* 火影22.png */; };
+		F908CF4B1EAF2FEA00AA07A7 /* 火影23.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB21EAF2FEA00AA07A7 /* 火影23.png */; };
+		F908CF4C1EAF2FEA00AA07A7 /* 火影24.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB31EAF2FEA00AA07A7 /* 火影24.png */; };
+		F908CF4D1EAF2FEA00AA07A7 /* 火影25.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB41EAF2FEA00AA07A7 /* 火影25.png */; };
+		F908CF4E1EAF2FEA00AA07A7 /* 火影26.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB51EAF2FEA00AA07A7 /* 火影26.png */; };
+		F908CF4F1EAF2FEA00AA07A7 /* 火影27.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB61EAF2FEA00AA07A7 /* 火影27.png */; };
+		F908CF501EAF2FEA00AA07A7 /* 火影28.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB71EAF2FEA00AA07A7 /* 火影28.png */; };
+		F908CF511EAF2FEA00AA07A7 /* 火影29.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB81EAF2FEA00AA07A7 /* 火影29.png */; };
+		F908CF521EAF2FEA00AA07A7 /* 火影30.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEB91EAF2FEA00AA07A7 /* 火影30.png */; };
+		F908CF531EAF2FEA00AA07A7 /* 火影31.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEBA1EAF2FEA00AA07A7 /* 火影31.png */; };
+		F908CF541EAF2FEA00AA07A7 /* 火影32.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEBB1EAF2FEA00AA07A7 /* 火影32.png */; };
+		F908CF551EAF2FEA00AA07A7 /* 火影33.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEBC1EAF2FEA00AA07A7 /* 火影33.png */; };
+		F908CF561EAF2FEA00AA07A7 /* 火影34.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEBD1EAF2FEA00AA07A7 /* 火影34.png */; };
+		F908CF571EAF2FEA00AA07A7 /* 火影35.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEBE1EAF2FEA00AA07A7 /* 火影35.png */; };
+		F908CF581EAF2FEA00AA07A7 /* 火影36.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEBF1EAF2FEA00AA07A7 /* 火影36.png */; };
+		F908CF591EAF2FEA00AA07A7 /* 火影37.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC01EAF2FEA00AA07A7 /* 火影37.png */; };
+		F908CF5A1EAF2FEA00AA07A7 /* 火影38.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC11EAF2FEA00AA07A7 /* 火影38.png */; };
+		F908CF5B1EAF2FEA00AA07A7 /* 火影39.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC21EAF2FEA00AA07A7 /* 火影39.png */; };
+		F908CF5C1EAF2FEA00AA07A7 /* 火影40.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC31EAF2FEA00AA07A7 /* 火影40.png */; };
+		F908CF5D1EAF2FEA00AA07A7 /* 火影41.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC41EAF2FEA00AA07A7 /* 火影41.png */; };
+		F908CF5E1EAF2FEA00AA07A7 /* 火影42.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC51EAF2FEA00AA07A7 /* 火影42.png */; };
+		F908CF5F1EAF2FEA00AA07A7 /* 火影43.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC61EAF2FEA00AA07A7 /* 火影43.png */; };
+		F908CF601EAF2FEA00AA07A7 /* 火影44.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC71EAF2FEA00AA07A7 /* 火影44.png */; };
+		F908CF611EAF2FEA00AA07A7 /* 火影45.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC81EAF2FEA00AA07A7 /* 火影45.png */; };
+		F908CF621EAF2FEA00AA07A7 /* 火影46.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CEC91EAF2FEA00AA07A7 /* 火影46.png */; };
+		F908CF631EAF2FEA00AA07A7 /* 火影47.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CECA1EAF2FEA00AA07A7 /* 火影47.png */; };
+		F908CF641EAF2FEA00AA07A7 /* 火影48.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CECB1EAF2FEA00AA07A7 /* 火影48.png */; };
+		F908CF651EAF2FEA00AA07A7 /* 火影49.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CECC1EAF2FEA00AA07A7 /* 火影49.png */; };
+		F908CF661EAF2FEA00AA07A7 /* 火影50.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CECD1EAF2FEA00AA07A7 /* 火影50.png */; };
+		F908CF671EAF2FEA00AA07A7 /* 火影51.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CECE1EAF2FEA00AA07A7 /* 火影51.png */; };
+		F908CF681EAF2FEA00AA07A7 /* 火影52.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CECF1EAF2FEA00AA07A7 /* 火影52.png */; };
+		F908CF691EAF2FEA00AA07A7 /* 火影53.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CED01EAF2FEA00AA07A7 /* 火影53.png */; };
+		F908CF6A1EAF2FEA00AA07A7 /* 火影54.png in Resources */ = {isa = PBXBuildFile; fileRef = F908CED11EAF2FEA00AA07A7 /* 火影54.png */; };
+		F908CF6B1EAF2FEA00AA07A7 /* 美女01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CED31EAF2FEA00AA07A7 /* 美女01.jpg */; };
+		F908CF6C1EAF2FEA00AA07A7 /* 美女02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CED41EAF2FEA00AA07A7 /* 美女02.jpg */; };
+		F908CF6D1EAF2FEA00AA07A7 /* 美女03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CED51EAF2FEA00AA07A7 /* 美女03.jpg */; };
+		F908CF6E1EAF2FEA00AA07A7 /* 美女04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CED61EAF2FEA00AA07A7 /* 美女04.jpg */; };
+		F908CF6F1EAF2FEA00AA07A7 /* 美女05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CED71EAF2FEA00AA07A7 /* 美女05.jpg */; };
+		F908CF701EAF2FEA00AA07A7 /* 美女06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CED81EAF2FEA00AA07A7 /* 美女06.jpg */; };
+		F908CF711EAF2FEA00AA07A7 /* 美女07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CED91EAF2FEA00AA07A7 /* 美女07.jpg */; };
+		F908CF721EAF2FEA00AA07A7 /* 美女08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEDA1EAF2FEA00AA07A7 /* 美女08.jpg */; };
+		F908CF731EAF2FEA00AA07A7 /* 美女09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEDB1EAF2FEA00AA07A7 /* 美女09.jpg */; };
+		F908CF741EAF2FEA00AA07A7 /* 美女10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEDC1EAF2FEA00AA07A7 /* 美女10.jpg */; };
+		F908CF751EAF2FEA00AA07A7 /* 美女11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEDD1EAF2FEA00AA07A7 /* 美女11.jpg */; };
+		F908CF761EAF2FEA00AA07A7 /* 美女12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEDE1EAF2FEA00AA07A7 /* 美女12.jpg */; };
+		F908CF771EAF2FEA00AA07A7 /* 美女13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEDF1EAF2FEA00AA07A7 /* 美女13.jpg */; };
+		F908CF781EAF2FEA00AA07A7 /* 美女14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE01EAF2FEA00AA07A7 /* 美女14.jpg */; };
+		F908CF791EAF2FEA00AA07A7 /* 美女15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE11EAF2FEA00AA07A7 /* 美女15.jpg */; };
+		F908CF7A1EAF2FEA00AA07A7 /* 美女16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE21EAF2FEA00AA07A7 /* 美女16.jpg */; };
+		F908CF7B1EAF2FEA00AA07A7 /* 美女17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE31EAF2FEA00AA07A7 /* 美女17.jpg */; };
+		F908CF7C1EAF2FEA00AA07A7 /* 美女18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE41EAF2FEA00AA07A7 /* 美女18.jpg */; };
+		F908CF7D1EAF2FEA00AA07A7 /* 美女19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE51EAF2FEA00AA07A7 /* 美女19.jpg */; };
+		F908CF7E1EAF2FEA00AA07A7 /* 美女20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE61EAF2FEA00AA07A7 /* 美女20.jpg */; };
+		F908CF7F1EAF2FEA00AA07A7 /* 美女21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE71EAF2FEA00AA07A7 /* 美女21.jpg */; };
+		F908CF801EAF2FEA00AA07A7 /* 美女22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE81EAF2FEA00AA07A7 /* 美女22.jpg */; };
+		F908CF811EAF2FEA00AA07A7 /* 美女23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEE91EAF2FEA00AA07A7 /* 美女23.jpg */; };
+		F908CF821EAF2FEA00AA07A7 /* 美女24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEEA1EAF2FEA00AA07A7 /* 美女24.jpg */; };
+		F908CF831EAF2FEA00AA07A7 /* 美女25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F908CEEB1EAF2FEA00AA07A7 /* 美女25.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F908CE351EAF2C5A00AA07A7 /* MyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F908CE391EAF2C5A00AA07A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F908CE3B1EAF2C5A00AA07A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F908CE3C1EAF2C5A00AA07A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F908CE3E1EAF2C5A00AA07A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F908CE3F1EAF2C5A00AA07A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F908CE421EAF2C5A00AA07A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F908CE441EAF2C5A00AA07A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F908CE471EAF2C5A00AA07A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F908CE491EAF2C5A00AA07A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F908CE501EAF2FEA00AA07A7 /* image_圣斗士.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "image_圣斗士.plist"; sourceTree = "<group>"; };
+		F908CE511EAF2FEA00AA07A7 /* image_海贼.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "image_海贼.plist"; sourceTree = "<group>"; };
+		F908CE521EAF2FEA00AA07A7 /* image_火影忍者.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "image_火影忍者.plist"; sourceTree = "<group>"; };
+		F908CE531EAF2FEA00AA07A7 /* image_美女.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "image_美女.plist"; sourceTree = "<group>"; };
+		F908CE551EAF2FEA00AA07A7 /* 圣斗士01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士01.jpg"; sourceTree = "<group>"; };
+		F908CE561EAF2FEA00AA07A7 /* 圣斗士02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士02.jpg"; sourceTree = "<group>"; };
+		F908CE571EAF2FEA00AA07A7 /* 圣斗士03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士03.jpg"; sourceTree = "<group>"; };
+		F908CE581EAF2FEA00AA07A7 /* 圣斗士04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士04.jpg"; sourceTree = "<group>"; };
+		F908CE591EAF2FEA00AA07A7 /* 圣斗士05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士05.jpg"; sourceTree = "<group>"; };
+		F908CE5A1EAF2FEA00AA07A7 /* 圣斗士06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士06.jpg"; sourceTree = "<group>"; };
+		F908CE5B1EAF2FEA00AA07A7 /* 圣斗士07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士07.jpg"; sourceTree = "<group>"; };
+		F908CE5C1EAF2FEA00AA07A7 /* 圣斗士08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士08.jpg"; sourceTree = "<group>"; };
+		F908CE5D1EAF2FEA00AA07A7 /* 圣斗士09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士09.jpg"; sourceTree = "<group>"; };
+		F908CE5E1EAF2FEA00AA07A7 /* 圣斗士10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士10.jpg"; sourceTree = "<group>"; };
+		F908CE5F1EAF2FEA00AA07A7 /* 圣斗士11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士11.jpg"; sourceTree = "<group>"; };
+		F908CE601EAF2FEA00AA07A7 /* 圣斗士12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士12.jpg"; sourceTree = "<group>"; };
+		F908CE611EAF2FEA00AA07A7 /* 圣斗士13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士13.jpg"; sourceTree = "<group>"; };
+		F908CE621EAF2FEA00AA07A7 /* 圣斗士14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士14.jpg"; sourceTree = "<group>"; };
+		F908CE631EAF2FEA00AA07A7 /* 圣斗士15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣斗士15.jpg"; sourceTree = "<group>"; };
+		F908CE651EAF2FEA00AA07A7 /* 海贼01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼01.jpg"; sourceTree = "<group>"; };
+		F908CE661EAF2FEA00AA07A7 /* 海贼02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼02.jpg"; sourceTree = "<group>"; };
+		F908CE671EAF2FEA00AA07A7 /* 海贼03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼03.jpg"; sourceTree = "<group>"; };
+		F908CE681EAF2FEA00AA07A7 /* 海贼04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼04.jpg"; sourceTree = "<group>"; };
+		F908CE691EAF2FEA00AA07A7 /* 海贼05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼05.jpg"; sourceTree = "<group>"; };
+		F908CE6A1EAF2FEA00AA07A7 /* 海贼06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼06.jpg"; sourceTree = "<group>"; };
+		F908CE6B1EAF2FEA00AA07A7 /* 海贼07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼07.jpg"; sourceTree = "<group>"; };
+		F908CE6C1EAF2FEA00AA07A7 /* 海贼08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼08.jpg"; sourceTree = "<group>"; };
+		F908CE6D1EAF2FEA00AA07A7 /* 海贼09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼09.jpg"; sourceTree = "<group>"; };
+		F908CE6E1EAF2FEA00AA07A7 /* 海贼10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼10.jpg"; sourceTree = "<group>"; };
+		F908CE6F1EAF2FEA00AA07A7 /* 海贼11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼11.jpg"; sourceTree = "<group>"; };
+		F908CE701EAF2FEA00AA07A7 /* 海贼12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼12.jpg"; sourceTree = "<group>"; };
+		F908CE711EAF2FEA00AA07A7 /* 海贼13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼13.jpg"; sourceTree = "<group>"; };
+		F908CE721EAF2FEA00AA07A7 /* 海贼14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼14.jpg"; sourceTree = "<group>"; };
+		F908CE731EAF2FEA00AA07A7 /* 海贼15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼15.jpg"; sourceTree = "<group>"; };
+		F908CE741EAF2FEA00AA07A7 /* 海贼16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼16.jpg"; sourceTree = "<group>"; };
+		F908CE751EAF2FEA00AA07A7 /* 海贼17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼17.jpg"; sourceTree = "<group>"; };
+		F908CE761EAF2FEA00AA07A7 /* 海贼18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼18.jpg"; sourceTree = "<group>"; };
+		F908CE771EAF2FEA00AA07A7 /* 海贼19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼19.jpg"; sourceTree = "<group>"; };
+		F908CE781EAF2FEA00AA07A7 /* 海贼20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼20.jpg"; sourceTree = "<group>"; };
+		F908CE791EAF2FEA00AA07A7 /* 海贼21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼21.jpg"; sourceTree = "<group>"; };
+		F908CE7A1EAF2FEA00AA07A7 /* 海贼22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼22.jpg"; sourceTree = "<group>"; };
+		F908CE7B1EAF2FEA00AA07A7 /* 海贼23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼23.jpg"; sourceTree = "<group>"; };
+		F908CE7C1EAF2FEA00AA07A7 /* 海贼24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼24.jpg"; sourceTree = "<group>"; };
+		F908CE7D1EAF2FEA00AA07A7 /* 海贼25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼25.jpg"; sourceTree = "<group>"; };
+		F908CE7E1EAF2FEA00AA07A7 /* 海贼26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼26.jpg"; sourceTree = "<group>"; };
+		F908CE7F1EAF2FEA00AA07A7 /* 海贼27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼27.jpg"; sourceTree = "<group>"; };
+		F908CE801EAF2FEA00AA07A7 /* 海贼28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼28.jpg"; sourceTree = "<group>"; };
+		F908CE811EAF2FEA00AA07A7 /* 海贼29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼29.jpg"; sourceTree = "<group>"; };
+		F908CE821EAF2FEA00AA07A7 /* 海贼30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼30.jpg"; sourceTree = "<group>"; };
+		F908CE831EAF2FEA00AA07A7 /* 海贼31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼31.jpg"; sourceTree = "<group>"; };
+		F908CE841EAF2FEA00AA07A7 /* 海贼32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼32.jpg"; sourceTree = "<group>"; };
+		F908CE851EAF2FEA00AA07A7 /* 海贼33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼33.jpg"; sourceTree = "<group>"; };
+		F908CE861EAF2FEA00AA07A7 /* 海贼34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼34.jpg"; sourceTree = "<group>"; };
+		F908CE871EAF2FEA00AA07A7 /* 海贼35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼35.jpg"; sourceTree = "<group>"; };
+		F908CE881EAF2FEA00AA07A7 /* 海贼36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼36.jpg"; sourceTree = "<group>"; };
+		F908CE891EAF2FEA00AA07A7 /* 海贼37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼37.jpg"; sourceTree = "<group>"; };
+		F908CE8A1EAF2FEA00AA07A7 /* 海贼38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼38.jpg"; sourceTree = "<group>"; };
+		F908CE8B1EAF2FEA00AA07A7 /* 海贼39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼39.jpg"; sourceTree = "<group>"; };
+		F908CE8C1EAF2FEA00AA07A7 /* 海贼40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼40.jpg"; sourceTree = "<group>"; };
+		F908CE8D1EAF2FEA00AA07A7 /* 海贼41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼41.jpg"; sourceTree = "<group>"; };
+		F908CE8E1EAF2FEA00AA07A7 /* 海贼42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼42.jpg"; sourceTree = "<group>"; };
+		F908CE8F1EAF2FEA00AA07A7 /* 海贼43.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼43.jpg"; sourceTree = "<group>"; };
+		F908CE901EAF2FEA00AA07A7 /* 海贼44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼44.jpg"; sourceTree = "<group>"; };
+		F908CE911EAF2FEA00AA07A7 /* 海贼45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼45.jpg"; sourceTree = "<group>"; };
+		F908CE921EAF2FEA00AA07A7 /* 海贼46.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼46.jpg"; sourceTree = "<group>"; };
+		F908CE931EAF2FEA00AA07A7 /* 海贼47.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼47.jpg"; sourceTree = "<group>"; };
+		F908CE941EAF2FEA00AA07A7 /* 海贼48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼48.jpg"; sourceTree = "<group>"; };
+		F908CE951EAF2FEA00AA07A7 /* 海贼49.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼49.jpg"; sourceTree = "<group>"; };
+		F908CE961EAF2FEA00AA07A7 /* 海贼50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼50.jpg"; sourceTree = "<group>"; };
+		F908CE971EAF2FEA00AA07A7 /* 海贼51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼51.jpg"; sourceTree = "<group>"; };
+		F908CE981EAF2FEA00AA07A7 /* 海贼52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼52.jpg"; sourceTree = "<group>"; };
+		F908CE991EAF2FEA00AA07A7 /* 海贼53.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼53.jpg"; sourceTree = "<group>"; };
+		F908CE9A1EAF2FEA00AA07A7 /* 海贼54.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼54.jpg"; sourceTree = "<group>"; };
+		F908CE9C1EAF2FEA00AA07A7 /* 火影01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影01.png"; sourceTree = "<group>"; };
+		F908CE9D1EAF2FEA00AA07A7 /* 火影02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影02.png"; sourceTree = "<group>"; };
+		F908CE9E1EAF2FEA00AA07A7 /* 火影03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影03.png"; sourceTree = "<group>"; };
+		F908CE9F1EAF2FEA00AA07A7 /* 火影04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影04.png"; sourceTree = "<group>"; };
+		F908CEA01EAF2FEA00AA07A7 /* 火影05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影05.png"; sourceTree = "<group>"; };
+		F908CEA11EAF2FEA00AA07A7 /* 火影06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影06.png"; sourceTree = "<group>"; };
+		F908CEA21EAF2FEA00AA07A7 /* 火影07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影07.png"; sourceTree = "<group>"; };
+		F908CEA31EAF2FEA00AA07A7 /* 火影08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影08.png"; sourceTree = "<group>"; };
+		F908CEA41EAF2FEA00AA07A7 /* 火影09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影09.png"; sourceTree = "<group>"; };
+		F908CEA51EAF2FEA00AA07A7 /* 火影10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影10.png"; sourceTree = "<group>"; };
+		F908CEA61EAF2FEA00AA07A7 /* 火影11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影11.png"; sourceTree = "<group>"; };
+		F908CEA71EAF2FEA00AA07A7 /* 火影12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影12.png"; sourceTree = "<group>"; };
+		F908CEA81EAF2FEA00AA07A7 /* 火影13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影13.png"; sourceTree = "<group>"; };
+		F908CEA91EAF2FEA00AA07A7 /* 火影14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影14.png"; sourceTree = "<group>"; };
+		F908CEAA1EAF2FEA00AA07A7 /* 火影15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影15.png"; sourceTree = "<group>"; };
+		F908CEAB1EAF2FEA00AA07A7 /* 火影16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影16.png"; sourceTree = "<group>"; };
+		F908CEAC1EAF2FEA00AA07A7 /* 火影17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影17.png"; sourceTree = "<group>"; };
+		F908CEAD1EAF2FEA00AA07A7 /* 火影18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影18.png"; sourceTree = "<group>"; };
+		F908CEAE1EAF2FEA00AA07A7 /* 火影19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影19.png"; sourceTree = "<group>"; };
+		F908CEAF1EAF2FEA00AA07A7 /* 火影20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影20.png"; sourceTree = "<group>"; };
+		F908CEB01EAF2FEA00AA07A7 /* 火影21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影21.png"; sourceTree = "<group>"; };
+		F908CEB11EAF2FEA00AA07A7 /* 火影22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影22.png"; sourceTree = "<group>"; };
+		F908CEB21EAF2FEA00AA07A7 /* 火影23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影23.png"; sourceTree = "<group>"; };
+		F908CEB31EAF2FEA00AA07A7 /* 火影24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影24.png"; sourceTree = "<group>"; };
+		F908CEB41EAF2FEA00AA07A7 /* 火影25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影25.png"; sourceTree = "<group>"; };
+		F908CEB51EAF2FEA00AA07A7 /* 火影26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影26.png"; sourceTree = "<group>"; };
+		F908CEB61EAF2FEA00AA07A7 /* 火影27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影27.png"; sourceTree = "<group>"; };
+		F908CEB71EAF2FEA00AA07A7 /* 火影28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影28.png"; sourceTree = "<group>"; };
+		F908CEB81EAF2FEA00AA07A7 /* 火影29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影29.png"; sourceTree = "<group>"; };
+		F908CEB91EAF2FEA00AA07A7 /* 火影30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影30.png"; sourceTree = "<group>"; };
+		F908CEBA1EAF2FEA00AA07A7 /* 火影31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影31.png"; sourceTree = "<group>"; };
+		F908CEBB1EAF2FEA00AA07A7 /* 火影32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影32.png"; sourceTree = "<group>"; };
+		F908CEBC1EAF2FEA00AA07A7 /* 火影33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影33.png"; sourceTree = "<group>"; };
+		F908CEBD1EAF2FEA00AA07A7 /* 火影34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影34.png"; sourceTree = "<group>"; };
+		F908CEBE1EAF2FEA00AA07A7 /* 火影35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影35.png"; sourceTree = "<group>"; };
+		F908CEBF1EAF2FEA00AA07A7 /* 火影36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影36.png"; sourceTree = "<group>"; };
+		F908CEC01EAF2FEA00AA07A7 /* 火影37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影37.png"; sourceTree = "<group>"; };
+		F908CEC11EAF2FEA00AA07A7 /* 火影38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影38.png"; sourceTree = "<group>"; };
+		F908CEC21EAF2FEA00AA07A7 /* 火影39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影39.png"; sourceTree = "<group>"; };
+		F908CEC31EAF2FEA00AA07A7 /* 火影40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影40.png"; sourceTree = "<group>"; };
+		F908CEC41EAF2FEA00AA07A7 /* 火影41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影41.png"; sourceTree = "<group>"; };
+		F908CEC51EAF2FEA00AA07A7 /* 火影42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影42.png"; sourceTree = "<group>"; };
+		F908CEC61EAF2FEA00AA07A7 /* 火影43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影43.png"; sourceTree = "<group>"; };
+		F908CEC71EAF2FEA00AA07A7 /* 火影44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影44.png"; sourceTree = "<group>"; };
+		F908CEC81EAF2FEA00AA07A7 /* 火影45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影45.png"; sourceTree = "<group>"; };
+		F908CEC91EAF2FEA00AA07A7 /* 火影46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影46.png"; sourceTree = "<group>"; };
+		F908CECA1EAF2FEA00AA07A7 /* 火影47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影47.png"; sourceTree = "<group>"; };
+		F908CECB1EAF2FEA00AA07A7 /* 火影48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影48.png"; sourceTree = "<group>"; };
+		F908CECC1EAF2FEA00AA07A7 /* 火影49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影49.png"; sourceTree = "<group>"; };
+		F908CECD1EAF2FEA00AA07A7 /* 火影50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影50.png"; sourceTree = "<group>"; };
+		F908CECE1EAF2FEA00AA07A7 /* 火影51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影51.png"; sourceTree = "<group>"; };
+		F908CECF1EAF2FEA00AA07A7 /* 火影52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影52.png"; sourceTree = "<group>"; };
+		F908CED01EAF2FEA00AA07A7 /* 火影53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影53.png"; sourceTree = "<group>"; };
+		F908CED11EAF2FEA00AA07A7 /* 火影54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影54.png"; sourceTree = "<group>"; };
+		F908CED31EAF2FEA00AA07A7 /* 美女01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女01.jpg"; sourceTree = "<group>"; };
+		F908CED41EAF2FEA00AA07A7 /* 美女02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女02.jpg"; sourceTree = "<group>"; };
+		F908CED51EAF2FEA00AA07A7 /* 美女03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女03.jpg"; sourceTree = "<group>"; };
+		F908CED61EAF2FEA00AA07A7 /* 美女04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女04.jpg"; sourceTree = "<group>"; };
+		F908CED71EAF2FEA00AA07A7 /* 美女05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女05.jpg"; sourceTree = "<group>"; };
+		F908CED81EAF2FEA00AA07A7 /* 美女06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女06.jpg"; sourceTree = "<group>"; };
+		F908CED91EAF2FEA00AA07A7 /* 美女07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女07.jpg"; sourceTree = "<group>"; };
+		F908CEDA1EAF2FEA00AA07A7 /* 美女08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女08.jpg"; sourceTree = "<group>"; };
+		F908CEDB1EAF2FEA00AA07A7 /* 美女09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女09.jpg"; sourceTree = "<group>"; };
+		F908CEDC1EAF2FEA00AA07A7 /* 美女10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女10.jpg"; sourceTree = "<group>"; };
+		F908CEDD1EAF2FEA00AA07A7 /* 美女11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女11.jpg"; sourceTree = "<group>"; };
+		F908CEDE1EAF2FEA00AA07A7 /* 美女12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女12.jpg"; sourceTree = "<group>"; };
+		F908CEDF1EAF2FEA00AA07A7 /* 美女13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女13.jpg"; sourceTree = "<group>"; };
+		F908CEE01EAF2FEA00AA07A7 /* 美女14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女14.jpg"; sourceTree = "<group>"; };
+		F908CEE11EAF2FEA00AA07A7 /* 美女15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女15.jpg"; sourceTree = "<group>"; };
+		F908CEE21EAF2FEA00AA07A7 /* 美女16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女16.jpg"; sourceTree = "<group>"; };
+		F908CEE31EAF2FEA00AA07A7 /* 美女17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女17.jpg"; sourceTree = "<group>"; };
+		F908CEE41EAF2FEA00AA07A7 /* 美女18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女18.jpg"; sourceTree = "<group>"; };
+		F908CEE51EAF2FEA00AA07A7 /* 美女19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女19.jpg"; sourceTree = "<group>"; };
+		F908CEE61EAF2FEA00AA07A7 /* 美女20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女20.jpg"; sourceTree = "<group>"; };
+		F908CEE71EAF2FEA00AA07A7 /* 美女21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女21.jpg"; sourceTree = "<group>"; };
+		F908CEE81EAF2FEA00AA07A7 /* 美女22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女22.jpg"; sourceTree = "<group>"; };
+		F908CEE91EAF2FEA00AA07A7 /* 美女23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女23.jpg"; sourceTree = "<group>"; };
+		F908CEEA1EAF2FEA00AA07A7 /* 美女24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女24.jpg"; sourceTree = "<group>"; };
+		F908CEEB1EAF2FEA00AA07A7 /* 美女25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女25.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F908CE321EAF2C5A00AA07A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F908CE2C1EAF2C5A00AA07A7 = {
+			isa = PBXGroup;
+			children = (
+				F908CE371EAF2C5A00AA07A7 /* MyTableView */,
+				F908CE361EAF2C5A00AA07A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F908CE361EAF2C5A00AA07A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F908CE351EAF2C5A00AA07A7 /* MyTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F908CE371EAF2C5A00AA07A7 /* MyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F908CE4F1EAF2FEA00AA07A7 /* picture */,
+				F908CE3B1EAF2C5A00AA07A7 /* AppDelegate.h */,
+				F908CE3C1EAF2C5A00AA07A7 /* AppDelegate.m */,
+				F908CE3E1EAF2C5A00AA07A7 /* ViewController.h */,
+				F908CE3F1EAF2C5A00AA07A7 /* ViewController.m */,
+				F908CE411EAF2C5A00AA07A7 /* Main.storyboard */,
+				F908CE381EAF2C5A00AA07A7 /* Supporting Files */,
+			);
+			path = MyTableView;
+			sourceTree = "<group>";
+		};
+		F908CE381EAF2C5A00AA07A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F908CE441EAF2C5A00AA07A7 /* Assets.xcassets */,
+				F908CE461EAF2C5A00AA07A7 /* LaunchScreen.storyboard */,
+				F908CE491EAF2C5A00AA07A7 /* Info.plist */,
+				F908CE391EAF2C5A00AA07A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F908CE4F1EAF2FEA00AA07A7 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				F908CE501EAF2FEA00AA07A7 /* image_圣斗士.plist */,
+				F908CE511EAF2FEA00AA07A7 /* image_海贼.plist */,
+				F908CE521EAF2FEA00AA07A7 /* image_火影忍者.plist */,
+				F908CE531EAF2FEA00AA07A7 /* image_美女.plist */,
+				F908CE541EAF2FEA00AA07A7 /* 圣斗士 */,
+				F908CE641EAF2FEA00AA07A7 /* 海贼王 */,
+				F908CE9B1EAF2FEA00AA07A7 /* 火影忍者 */,
+				F908CED21EAF2FEA00AA07A7 /* 美女 */,
+			);
+			path = picture;
+			sourceTree = "<group>";
+		};
+		F908CE541EAF2FEA00AA07A7 /* 圣斗士 */ = {
+			isa = PBXGroup;
+			children = (
+				F908CE551EAF2FEA00AA07A7 /* 圣斗士01.jpg */,
+				F908CE561EAF2FEA00AA07A7 /* 圣斗士02.jpg */,
+				F908CE571EAF2FEA00AA07A7 /* 圣斗士03.jpg */,
+				F908CE581EAF2FEA00AA07A7 /* 圣斗士04.jpg */,
+				F908CE591EAF2FEA00AA07A7 /* 圣斗士05.jpg */,
+				F908CE5A1EAF2FEA00AA07A7 /* 圣斗士06.jpg */,
+				F908CE5B1EAF2FEA00AA07A7 /* 圣斗士07.jpg */,
+				F908CE5C1EAF2FEA00AA07A7 /* 圣斗士08.jpg */,
+				F908CE5D1EAF2FEA00AA07A7 /* 圣斗士09.jpg */,
+				F908CE5E1EAF2FEA00AA07A7 /* 圣斗士10.jpg */,
+				F908CE5F1EAF2FEA00AA07A7 /* 圣斗士11.jpg */,
+				F908CE601EAF2FEA00AA07A7 /* 圣斗士12.jpg */,
+				F908CE611EAF2FEA00AA07A7 /* 圣斗士13.jpg */,
+				F908CE621EAF2FEA00AA07A7 /* 圣斗士14.jpg */,
+				F908CE631EAF2FEA00AA07A7 /* 圣斗士15.jpg */,
+			);
+			path = "圣斗士";
+			sourceTree = "<group>";
+		};
+		F908CE641EAF2FEA00AA07A7 /* 海贼王 */ = {
+			isa = PBXGroup;
+			children = (
+				F908CE651EAF2FEA00AA07A7 /* 海贼01.jpg */,
+				F908CE661EAF2FEA00AA07A7 /* 海贼02.jpg */,
+				F908CE671EAF2FEA00AA07A7 /* 海贼03.jpg */,
+				F908CE681EAF2FEA00AA07A7 /* 海贼04.jpg */,
+				F908CE691EAF2FEA00AA07A7 /* 海贼05.jpg */,
+				F908CE6A1EAF2FEA00AA07A7 /* 海贼06.jpg */,
+				F908CE6B1EAF2FEA00AA07A7 /* 海贼07.jpg */,
+				F908CE6C1EAF2FEA00AA07A7 /* 海贼08.jpg */,
+				F908CE6D1EAF2FEA00AA07A7 /* 海贼09.jpg */,
+				F908CE6E1EAF2FEA00AA07A7 /* 海贼10.jpg */,
+				F908CE6F1EAF2FEA00AA07A7 /* 海贼11.jpg */,
+				F908CE701EAF2FEA00AA07A7 /* 海贼12.jpg */,
+				F908CE711EAF2FEA00AA07A7 /* 海贼13.jpg */,
+				F908CE721EAF2FEA00AA07A7 /* 海贼14.jpg */,
+				F908CE731EAF2FEA00AA07A7 /* 海贼15.jpg */,
+				F908CE741EAF2FEA00AA07A7 /* 海贼16.jpg */,
+				F908CE751EAF2FEA00AA07A7 /* 海贼17.jpg */,
+				F908CE761EAF2FEA00AA07A7 /* 海贼18.jpg */,
+				F908CE771EAF2FEA00AA07A7 /* 海贼19.jpg */,
+				F908CE781EAF2FEA00AA07A7 /* 海贼20.jpg */,
+				F908CE791EAF2FEA00AA07A7 /* 海贼21.jpg */,
+				F908CE7A1EAF2FEA00AA07A7 /* 海贼22.jpg */,
+				F908CE7B1EAF2FEA00AA07A7 /* 海贼23.jpg */,
+				F908CE7C1EAF2FEA00AA07A7 /* 海贼24.jpg */,
+				F908CE7D1EAF2FEA00AA07A7 /* 海贼25.jpg */,
+				F908CE7E1EAF2FEA00AA07A7 /* 海贼26.jpg */,
+				F908CE7F1EAF2FEA00AA07A7 /* 海贼27.jpg */,
+				F908CE801EAF2FEA00AA07A7 /* 海贼28.jpg */,
+				F908CE811EAF2FEA00AA07A7 /* 海贼29.jpg */,
+				F908CE821EAF2FEA00AA07A7 /* 海贼30.jpg */,
+				F908CE831EAF2FEA00AA07A7 /* 海贼31.jpg */,
+				F908CE841EAF2FEA00AA07A7 /* 海贼32.jpg */,
+				F908CE851EAF2FEA00AA07A7 /* 海贼33.jpg */,
+				F908CE861EAF2FEA00AA07A7 /* 海贼34.jpg */,
+				F908CE871EAF2FEA00AA07A7 /* 海贼35.jpg */,
+				F908CE881EAF2FEA00AA07A7 /* 海贼36.jpg */,
+				F908CE891EAF2FEA00AA07A7 /* 海贼37.jpg */,
+				F908CE8A1EAF2FEA00AA07A7 /* 海贼38.jpg */,
+				F908CE8B1EAF2FEA00AA07A7 /* 海贼39.jpg */,
+				F908CE8C1EAF2FEA00AA07A7 /* 海贼40.jpg */,
+				F908CE8D1EAF2FEA00AA07A7 /* 海贼41.jpg */,
+				F908CE8E1EAF2FEA00AA07A7 /* 海贼42.jpg */,
+				F908CE8F1EAF2FEA00AA07A7 /* 海贼43.jpg */,
+				F908CE901EAF2FEA00AA07A7 /* 海贼44.jpg */,
+				F908CE911EAF2FEA00AA07A7 /* 海贼45.jpg */,
+				F908CE921EAF2FEA00AA07A7 /* 海贼46.jpg */,
+				F908CE931EAF2FEA00AA07A7 /* 海贼47.jpg */,
+				F908CE941EAF2FEA00AA07A7 /* 海贼48.jpg */,
+				F908CE951EAF2FEA00AA07A7 /* 海贼49.jpg */,
+				F908CE961EAF2FEA00AA07A7 /* 海贼50.jpg */,
+				F908CE971EAF2FEA00AA07A7 /* 海贼51.jpg */,
+				F908CE981EAF2FEA00AA07A7 /* 海贼52.jpg */,
+				F908CE991EAF2FEA00AA07A7 /* 海贼53.jpg */,
+				F908CE9A1EAF2FEA00AA07A7 /* 海贼54.jpg */,
+			);
+			path = "海贼王";
+			sourceTree = "<group>";
+		};
+		F908CE9B1EAF2FEA00AA07A7 /* 火影忍者 */ = {
+			isa = PBXGroup;
+			children = (
+				F908CE9C1EAF2FEA00AA07A7 /* 火影01.png */,
+				F908CE9D1EAF2FEA00AA07A7 /* 火影02.png */,
+				F908CE9E1EAF2FEA00AA07A7 /* 火影03.png */,
+				F908CE9F1EAF2FEA00AA07A7 /* 火影04.png */,
+				F908CEA01EAF2FEA00AA07A7 /* 火影05.png */,
+				F908CEA11EAF2FEA00AA07A7 /* 火影06.png */,
+				F908CEA21EAF2FEA00AA07A7 /* 火影07.png */,
+				F908CEA31EAF2FEA00AA07A7 /* 火影08.png */,
+				F908CEA41EAF2FEA00AA07A7 /* 火影09.png */,
+				F908CEA51EAF2FEA00AA07A7 /* 火影10.png */,
+				F908CEA61EAF2FEA00AA07A7 /* 火影11.png */,
+				F908CEA71EAF2FEA00AA07A7 /* 火影12.png */,
+				F908CEA81EAF2FEA00AA07A7 /* 火影13.png */,
+				F908CEA91EAF2FEA00AA07A7 /* 火影14.png */,
+				F908CEAA1EAF2FEA00AA07A7 /* 火影15.png */,
+				F908CEAB1EAF2FEA00AA07A7 /* 火影16.png */,
+				F908CEAC1EAF2FEA00AA07A7 /* 火影17.png */,
+				F908CEAD1EAF2FEA00AA07A7 /* 火影18.png */,
+				F908CEAE1EAF2FEA00AA07A7 /* 火影19.png */,
+				F908CEAF1EAF2FEA00AA07A7 /* 火影20.png */,
+				F908CEB01EAF2FEA00AA07A7 /* 火影21.png */,
+				F908CEB11EAF2FEA00AA07A7 /* 火影22.png */,
+				F908CEB21EAF2FEA00AA07A7 /* 火影23.png */,
+				F908CEB31EAF2FEA00AA07A7 /* 火影24.png */,
+				F908CEB41EAF2FEA00AA07A7 /* 火影25.png */,
+				F908CEB51EAF2FEA00AA07A7 /* 火影26.png */,
+				F908CEB61EAF2FEA00AA07A7 /* 火影27.png */,
+				F908CEB71EAF2FEA00AA07A7 /* 火影28.png */,
+				F908CEB81EAF2FEA00AA07A7 /* 火影29.png */,
+				F908CEB91EAF2FEA00AA07A7 /* 火影30.png */,
+				F908CEBA1EAF2FEA00AA07A7 /* 火影31.png */,
+				F908CEBB1EAF2FEA00AA07A7 /* 火影32.png */,
+				F908CEBC1EAF2FEA00AA07A7 /* 火影33.png */,
+				F908CEBD1EAF2FEA00AA07A7 /* 火影34.png */,
+				F908CEBE1EAF2FEA00AA07A7 /* 火影35.png */,
+				F908CEBF1EAF2FEA00AA07A7 /* 火影36.png */,
+				F908CEC01EAF2FEA00AA07A7 /* 火影37.png */,
+				F908CEC11EAF2FEA00AA07A7 /* 火影38.png */,
+				F908CEC21EAF2FEA00AA07A7 /* 火影39.png */,
+				F908CEC31EAF2FEA00AA07A7 /* 火影40.png */,
+				F908CEC41EAF2FEA00AA07A7 /* 火影41.png */,
+				F908CEC51EAF2FEA00AA07A7 /* 火影42.png */,
+				F908CEC61EAF2FEA00AA07A7 /* 火影43.png */,
+				F908CEC71EAF2FEA00AA07A7 /* 火影44.png */,
+				F908CEC81EAF2FEA00AA07A7 /* 火影45.png */,
+				F908CEC91EAF2FEA00AA07A7 /* 火影46.png */,
+				F908CECA1EAF2FEA00AA07A7 /* 火影47.png */,
+				F908CECB1EAF2FEA00AA07A7 /* 火影48.png */,
+				F908CECC1EAF2FEA00AA07A7 /* 火影49.png */,
+				F908CECD1EAF2FEA00AA07A7 /* 火影50.png */,
+				F908CECE1EAF2FEA00AA07A7 /* 火影51.png */,
+				F908CECF1EAF2FEA00AA07A7 /* 火影52.png */,
+				F908CED01EAF2FEA00AA07A7 /* 火影53.png */,
+				F908CED11EAF2FEA00AA07A7 /* 火影54.png */,
+			);
+			path = "火影忍者";
+			sourceTree = "<group>";
+		};
+		F908CED21EAF2FEA00AA07A7 /* 美女 */ = {
+			isa = PBXGroup;
+			children = (
+				F908CED31EAF2FEA00AA07A7 /* 美女01.jpg */,
+				F908CED41EAF2FEA00AA07A7 /* 美女02.jpg */,
+				F908CED51EAF2FEA00AA07A7 /* 美女03.jpg */,
+				F908CED61EAF2FEA00AA07A7 /* 美女04.jpg */,
+				F908CED71EAF2FEA00AA07A7 /* 美女05.jpg */,
+				F908CED81EAF2FEA00AA07A7 /* 美女06.jpg */,
+				F908CED91EAF2FEA00AA07A7 /* 美女07.jpg */,
+				F908CEDA1EAF2FEA00AA07A7 /* 美女08.jpg */,
+				F908CEDB1EAF2FEA00AA07A7 /* 美女09.jpg */,
+				F908CEDC1EAF2FEA00AA07A7 /* 美女10.jpg */,
+				F908CEDD1EAF2FEA00AA07A7 /* 美女11.jpg */,
+				F908CEDE1EAF2FEA00AA07A7 /* 美女12.jpg */,
+				F908CEDF1EAF2FEA00AA07A7 /* 美女13.jpg */,
+				F908CEE01EAF2FEA00AA07A7 /* 美女14.jpg */,
+				F908CEE11EAF2FEA00AA07A7 /* 美女15.jpg */,
+				F908CEE21EAF2FEA00AA07A7 /* 美女16.jpg */,
+				F908CEE31EAF2FEA00AA07A7 /* 美女17.jpg */,
+				F908CEE41EAF2FEA00AA07A7 /* 美女18.jpg */,
+				F908CEE51EAF2FEA00AA07A7 /* 美女19.jpg */,
+				F908CEE61EAF2FEA00AA07A7 /* 美女20.jpg */,
+				F908CEE71EAF2FEA00AA07A7 /* 美女21.jpg */,
+				F908CEE81EAF2FEA00AA07A7 /* 美女22.jpg */,
+				F908CEE91EAF2FEA00AA07A7 /* 美女23.jpg */,
+				F908CEEA1EAF2FEA00AA07A7 /* 美女24.jpg */,
+				F908CEEB1EAF2FEA00AA07A7 /* 美女25.jpg */,
+			);
+			path = "美女";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F908CE341EAF2C5A00AA07A7 /* MyTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F908CE4C1EAF2C5A00AA07A7 /* Build configuration list for PBXNativeTarget "MyTableView" */;
+			buildPhases = (
+				F908CE311EAF2C5A00AA07A7 /* Sources */,
+				F908CE321EAF2C5A00AA07A7 /* Frameworks */,
+				F908CE331EAF2C5A00AA07A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTableView;
+			productName = MyTableView;
+			productReference = F908CE351EAF2C5A00AA07A7 /* MyTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F908CE2D1EAF2C5A00AA07A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = iSong;
+				TargetAttributes = {
+					F908CE341EAF2C5A00AA07A7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = MHN2XFC72U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F908CE301EAF2C5A00AA07A7 /* Build configuration list for PBXProject "MyTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F908CE2C1EAF2C5A00AA07A7;
+			productRefGroup = F908CE361EAF2C5A00AA07A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F908CE341EAF2C5A00AA07A7 /* MyTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F908CE331EAF2C5A00AA07A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F908CF581EAF2FEA00AA07A7 /* 火影36.png in Resources */,
+				F908CF171EAF2FEA00AA07A7 /* 海贼25.jpg in Resources */,
+				F908CF2D1EAF2FEA00AA07A7 /* 海贼47.jpg in Resources */,
+				F908CF641EAF2FEA00AA07A7 /* 火影48.png in Resources */,
+				F908CF721EAF2FEA00AA07A7 /* 美女08.jpg in Resources */,
+				F908CF201EAF2FEA00AA07A7 /* 海贼34.jpg in Resources */,
+				F908CF251EAF2FEA00AA07A7 /* 海贼39.jpg in Resources */,
+				F908CF1E1EAF2FEA00AA07A7 /* 海贼32.jpg in Resources */,
+				F908CF431EAF2FEA00AA07A7 /* 火影15.png in Resources */,
+				F908CF441EAF2FEA00AA07A7 /* 火影16.png in Resources */,
+				F908CF751EAF2FEA00AA07A7 /* 美女11.jpg in Resources */,
+				F908CF361EAF2FEA00AA07A7 /* 火影02.png in Resources */,
+				F908CF541EAF2FEA00AA07A7 /* 火影32.png in Resources */,
+				F908CF811EAF2FEA00AA07A7 /* 美女23.jpg in Resources */,
+				F908CF781EAF2FEA00AA07A7 /* 美女14.jpg in Resources */,
+				F908CEF21EAF2FEA00AA07A7 /* 圣斗士03.jpg in Resources */,
+				F908CF621EAF2FEA00AA07A7 /* 火影46.png in Resources */,
+				F908CF591EAF2FEA00AA07A7 /* 火影37.png in Resources */,
+				F908CF4D1EAF2FEA00AA07A7 /* 火影25.png in Resources */,
+				F908CF031EAF2FEA00AA07A7 /* 海贼05.jpg in Resources */,
+				F908CF421EAF2FEA00AA07A7 /* 火影14.png in Resources */,
+				F908CEFE1EAF2FEA00AA07A7 /* 圣斗士15.jpg in Resources */,
+				F908CF6A1EAF2FEA00AA07A7 /* 火影54.png in Resources */,
+				F908CF101EAF2FEA00AA07A7 /* 海贼18.jpg in Resources */,
+				F908CF521EAF2FEA00AA07A7 /* 火影30.png in Resources */,
+				F908CF6B1EAF2FEA00AA07A7 /* 美女01.jpg in Resources */,
+				F908CF4A1EAF2FEA00AA07A7 /* 火影22.png in Resources */,
+				F908CF571EAF2FEA00AA07A7 /* 火影35.png in Resources */,
+				F908CF2C1EAF2FEA00AA07A7 /* 海贼46.jpg in Resources */,
+				F908CF3C1EAF2FEA00AA07A7 /* 火影08.png in Resources */,
+				F908CEEF1EAF2FEA00AA07A7 /* image_美女.plist in Resources */,
+				F908CF601EAF2FEA00AA07A7 /* 火影44.png in Resources */,
+				F908CF7A1EAF2FEA00AA07A7 /* 美女16.jpg in Resources */,
+				F908CF091EAF2FEA00AA07A7 /* 海贼11.jpg in Resources */,
+				F908CF2A1EAF2FEA00AA07A7 /* 海贼44.jpg in Resources */,
+				F908CF471EAF2FEA00AA07A7 /* 火影19.png in Resources */,
+				F908CF1F1EAF2FEA00AA07A7 /* 海贼33.jpg in Resources */,
+				F908CF161EAF2FEA00AA07A7 /* 海贼24.jpg in Resources */,
+				F908CF141EAF2FEA00AA07A7 /* 海贼22.jpg in Resources */,
+				F908CF6C1EAF2FEA00AA07A7 /* 美女02.jpg in Resources */,
+				F908CF3D1EAF2FEA00AA07A7 /* 火影09.png in Resources */,
+				F908CEEE1EAF2FEA00AA07A7 /* image_火影忍者.plist in Resources */,
+				F908CF241EAF2FEA00AA07A7 /* 海贼38.jpg in Resources */,
+				F908CF211EAF2FEA00AA07A7 /* 海贼35.jpg in Resources */,
+				F908CF281EAF2FEA00AA07A7 /* 海贼42.jpg in Resources */,
+				F908CF111EAF2FEA00AA07A7 /* 海贼19.jpg in Resources */,
+				F908CF5C1EAF2FEA00AA07A7 /* 火影40.png in Resources */,
+				F908CF7B1EAF2FEA00AA07A7 /* 美女17.jpg in Resources */,
+				F908CF321EAF2FEA00AA07A7 /* 海贼52.jpg in Resources */,
+				F908CF001EAF2FEA00AA07A7 /* 海贼02.jpg in Resources */,
+				F908CF671EAF2FEA00AA07A7 /* 火影51.png in Resources */,
+				F908CF6D1EAF2FEA00AA07A7 /* 美女03.jpg in Resources */,
+				F908CF411EAF2FEA00AA07A7 /* 火影13.png in Resources */,
+				F908CF3B1EAF2FEA00AA07A7 /* 火影07.png in Resources */,
+				F908CEEC1EAF2FEA00AA07A7 /* image_圣斗士.plist in Resources */,
+				F908CF661EAF2FEA00AA07A7 /* 火影50.png in Resources */,
+				F908CF451EAF2FEA00AA07A7 /* 火影17.png in Resources */,
+				F908CF0D1EAF2FEA00AA07A7 /* 海贼15.jpg in Resources */,
+				F908CE481EAF2C5A00AA07A7 /* LaunchScreen.storyboard in Resources */,
+				F908CF5D1EAF2FEA00AA07A7 /* 火影41.png in Resources */,
+				F908CF0F1EAF2FEA00AA07A7 /* 海贼17.jpg in Resources */,
+				F908CF291EAF2FEA00AA07A7 /* 海贼43.jpg in Resources */,
+				F908CEFC1EAF2FEA00AA07A7 /* 圣斗士13.jpg in Resources */,
+				F908CF221EAF2FEA00AA07A7 /* 海贼36.jpg in Resources */,
+				F908CF011EAF2FEA00AA07A7 /* 海贼03.jpg in Resources */,
+				F908CF761EAF2FEA00AA07A7 /* 美女12.jpg in Resources */,
+				F908CEF11EAF2FEA00AA07A7 /* 圣斗士02.jpg in Resources */,
+				F908CF0E1EAF2FEA00AA07A7 /* 海贼16.jpg in Resources */,
+				F908CF081EAF2FEA00AA07A7 /* 海贼10.jpg in Resources */,
+				F908CF191EAF2FEA00AA07A7 /* 海贼27.jpg in Resources */,
+				F908CF0B1EAF2FEA00AA07A7 /* 海贼13.jpg in Resources */,
+				F908CF051EAF2FEA00AA07A7 /* 海贼07.jpg in Resources */,
+				F908CF021EAF2FEA00AA07A7 /* 海贼04.jpg in Resources */,
+				F908CF681EAF2FEA00AA07A7 /* 火影52.png in Resources */,
+				F908CF041EAF2FEA00AA07A7 /* 海贼06.jpg in Resources */,
+				F908CF7D1EAF2FEA00AA07A7 /* 美女19.jpg in Resources */,
+				F908CF5A1EAF2FEA00AA07A7 /* 火影38.png in Resources */,
+				F908CF7E1EAF2FEA00AA07A7 /* 美女20.jpg in Resources */,
+				F908CF731EAF2FEA00AA07A7 /* 美女09.jpg in Resources */,
+				F908CF351EAF2FEA00AA07A7 /* 火影01.png in Resources */,
+				F908CF711EAF2FEA00AA07A7 /* 美女07.jpg in Resources */,
+				F908CF631EAF2FEA00AA07A7 /* 火影47.png in Resources */,
+				F908CF821EAF2FEA00AA07A7 /* 美女24.jpg in Resources */,
+				F908CEF81EAF2FEA00AA07A7 /* 圣斗士09.jpg in Resources */,
+				F908CF6E1EAF2FEA00AA07A7 /* 美女04.jpg in Resources */,
+				F908CF7C1EAF2FEA00AA07A7 /* 美女18.jpg in Resources */,
+				F908CF1D1EAF2FEA00AA07A7 /* 海贼31.jpg in Resources */,
+				F908CF381EAF2FEA00AA07A7 /* 火影04.png in Resources */,
+				F908CE451EAF2C5A00AA07A7 /* Assets.xcassets in Resources */,
+				F908CF6F1EAF2FEA00AA07A7 /* 美女05.jpg in Resources */,
+				F908CF371EAF2FEA00AA07A7 /* 火影03.png in Resources */,
+				F908CF741EAF2FEA00AA07A7 /* 美女10.jpg in Resources */,
+				F908CF501EAF2FEA00AA07A7 /* 火影28.png in Resources */,
+				F908CF791EAF2FEA00AA07A7 /* 美女15.jpg in Resources */,
+				F908CF0C1EAF2FEA00AA07A7 /* 海贼14.jpg in Resources */,
+				F908CF271EAF2FEA00AA07A7 /* 海贼41.jpg in Resources */,
+				F908CEF51EAF2FEA00AA07A7 /* 圣斗士06.jpg in Resources */,
+				F908CF261EAF2FEA00AA07A7 /* 海贼40.jpg in Resources */,
+				F908CF2F1EAF2FEA00AA07A7 /* 海贼49.jpg in Resources */,
+				F908CEFF1EAF2FEA00AA07A7 /* 海贼01.jpg in Resources */,
+				F908CF231EAF2FEA00AA07A7 /* 海贼37.jpg in Resources */,
+				F908CF151EAF2FEA00AA07A7 /* 海贼23.jpg in Resources */,
+				F908CF7F1EAF2FEA00AA07A7 /* 美女21.jpg in Resources */,
+				F908CF4E1EAF2FEA00AA07A7 /* 火影26.png in Resources */,
+				F908CE431EAF2C5A00AA07A7 /* Main.storyboard in Resources */,
+				F908CF341EAF2FEA00AA07A7 /* 海贼54.jpg in Resources */,
+				F908CF121EAF2FEA00AA07A7 /* 海贼20.jpg in Resources */,
+				F908CF5F1EAF2FEA00AA07A7 /* 火影43.png in Resources */,
+				F908CEF31EAF2FEA00AA07A7 /* 圣斗士04.jpg in Resources */,
+				F908CF461EAF2FEA00AA07A7 /* 火影18.png in Resources */,
+				F908CF181EAF2FEA00AA07A7 /* 海贼26.jpg in Resources */,
+				F908CEF71EAF2FEA00AA07A7 /* 圣斗士08.jpg in Resources */,
+				F908CEFD1EAF2FEA00AA07A7 /* 圣斗士14.jpg in Resources */,
+				F908CF301EAF2FEA00AA07A7 /* 海贼50.jpg in Resources */,
+				F908CF561EAF2FEA00AA07A7 /* 火影34.png in Resources */,
+				F908CF4C1EAF2FEA00AA07A7 /* 火影24.png in Resources */,
+				F908CF551EAF2FEA00AA07A7 /* 火影33.png in Resources */,
+				F908CF391EAF2FEA00AA07A7 /* 火影05.png in Resources */,
+				F908CF701EAF2FEA00AA07A7 /* 美女06.jpg in Resources */,
+				F908CF2B1EAF2FEA00AA07A7 /* 海贼45.jpg in Resources */,
+				F908CF611EAF2FEA00AA07A7 /* 火影45.png in Resources */,
+				F908CF331EAF2FEA00AA07A7 /* 海贼53.jpg in Resources */,
+				F908CEF61EAF2FEA00AA07A7 /* 圣斗士07.jpg in Resources */,
+				F908CEFB1EAF2FEA00AA07A7 /* 圣斗士12.jpg in Resources */,
+				F908CEFA1EAF2FEA00AA07A7 /* 圣斗士11.jpg in Resources */,
+				F908CF511EAF2FEA00AA07A7 /* 火影29.png in Resources */,
+				F908CF831EAF2FEA00AA07A7 /* 美女25.jpg in Resources */,
+				F908CF2E1EAF2FEA00AA07A7 /* 海贼48.jpg in Resources */,
+				F908CF5B1EAF2FEA00AA07A7 /* 火影39.png in Resources */,
+				F908CF071EAF2FEA00AA07A7 /* 海贼09.jpg in Resources */,
+				F908CEF01EAF2FEA00AA07A7 /* 圣斗士01.jpg in Resources */,
+				F908CF401EAF2FEA00AA07A7 /* 火影12.png in Resources */,
+				F908CEF41EAF2FEA00AA07A7 /* 圣斗士05.jpg in Resources */,
+				F908CEF91EAF2FEA00AA07A7 /* 圣斗士10.jpg in Resources */,
+				F908CF691EAF2FEA00AA07A7 /* 火影53.png in Resources */,
+				F908CF0A1EAF2FEA00AA07A7 /* 海贼12.jpg in Resources */,
+				F908CF1B1EAF2FEA00AA07A7 /* 海贼29.jpg in Resources */,
+				F908CF061EAF2FEA00AA07A7 /* 海贼08.jpg in Resources */,
+				F908CEED1EAF2FEA00AA07A7 /* image_海贼.plist in Resources */,
+				F908CF1C1EAF2FEA00AA07A7 /* 海贼30.jpg in Resources */,
+				F908CF481EAF2FEA00AA07A7 /* 火影20.png in Resources */,
+				F908CF651EAF2FEA00AA07A7 /* 火影49.png in Resources */,
+				F908CF1A1EAF2FEA00AA07A7 /* 海贼28.jpg in Resources */,
+				F908CF801EAF2FEA00AA07A7 /* 美女22.jpg in Resources */,
+				F908CF3E1EAF2FEA00AA07A7 /* 火影10.png in Resources */,
+				F908CF531EAF2FEA00AA07A7 /* 火影31.png in Resources */,
+				F908CF3F1EAF2FEA00AA07A7 /* 火影11.png in Resources */,
+				F908CF771EAF2FEA00AA07A7 /* 美女13.jpg in Resources */,
+				F908CF3A1EAF2FEA00AA07A7 /* 火影06.png in Resources */,
+				F908CF131EAF2FEA00AA07A7 /* 海贼21.jpg in Resources */,
+				F908CF5E1EAF2FEA00AA07A7 /* 火影42.png in Resources */,
+				F908CF4F1EAF2FEA00AA07A7 /* 火影27.png in Resources */,
+				F908CF311EAF2FEA00AA07A7 /* 海贼51.jpg in Resources */,
+				F908CF491EAF2FEA00AA07A7 /* 火影21.png in Resources */,
+				F908CF4B1EAF2FEA00AA07A7 /* 火影23.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F908CE311EAF2C5A00AA07A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F908CE401EAF2C5A00AA07A7 /* ViewController.m in Sources */,
+				F908CE3D1EAF2C5A00AA07A7 /* AppDelegate.m in Sources */,
+				F908CE3A1EAF2C5A00AA07A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F908CE411EAF2C5A00AA07A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F908CE421EAF2C5A00AA07A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F908CE461EAF2C5A00AA07A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F908CE471EAF2C5A00AA07A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F908CE4A1EAF2C5A00AA07A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F908CE4B1EAF2C5A00AA07A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F908CE4D1EAF2C5A00AA07A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MHN2XFC72U;
+				INFOPLIST_FILE = MyTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsw.MyTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F908CE4E1EAF2C5A00AA07A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MHN2XFC72U;
+				INFOPLIST_FILE = MyTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsw.MyTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F908CE301EAF2C5A00AA07A7 /* Build configuration list for PBXProject "MyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F908CE4A1EAF2C5A00AA07A7 /* Debug */,
+				F908CE4B1EAF2C5A00AA07A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F908CE4C1EAF2C5A00AA07A7 /* Build configuration list for PBXNativeTarget "MyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F908CE4D1EAF2C5A00AA07A7 /* Debug */,
+				F908CE4E1EAF2C5A00AA07A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F908CE2D1EAF2C5A00AA07A7 /* Project object */;
+}

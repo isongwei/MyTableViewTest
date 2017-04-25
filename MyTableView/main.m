@@ -1,9 +1,9 @@
 //
 //  main.m
-//  TableViewTest
+//  MyTableView
 //
-//  Created by 张松伟 on 16/3/30.
-//  Copyright © 2016年 张松伟. All rights reserved.
+//  Created by iSongWei on 2017/4/25.
+//  Copyright © 2017年 iSong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -11,6 +11,7 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        setenv("OS_ACTIVITY_MODE", "DISABLE", 1);
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

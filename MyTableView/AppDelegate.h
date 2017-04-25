@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  TableViewTest
+//  MyTableView
 //
-//  Created by 张松伟 on 16/3/30.
-//  Copyright © 2016年 张松伟. All rights reserved.
+//  Created by iSongWei on 2017/4/25.
+//  Copyright © 2017年 iSong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
